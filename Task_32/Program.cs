@@ -1,6 +1,6 @@
 ﻿// Задать массив из 8 элементов, заполненных нулями и единицами вывести их на экран
 
-void FillArray(int[] collection)
+void FillArray(int[] collection)//Эта функция заполняет массив
 {
     int lenght = collection.Length;
     int index = 0;
