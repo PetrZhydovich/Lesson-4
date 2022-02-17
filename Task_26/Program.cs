@@ -1,9 +1,9 @@
 ﻿// Возведите число А в натуральную степень B используя цикл
-double GetRandomNumber()
-{
-    double number = new Random().Next(-20, 20);
-    return number;   
-}
-double a = GetRandomNumber();
-double b = GetRandomNumber();
-Console.WriteLine($"Сгенерироавнное число: {a} \n Сгенерированная степени числаL: {b}");
+Console.WriteLine("Возведём число А в натуральную степень В");
+Console.Write("А = ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("b = ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+double result = Math.Pow(a, b);
+Console.WriteLine($"{a} в степень {b} = {result}");
