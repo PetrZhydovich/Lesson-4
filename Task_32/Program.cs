@@ -17,7 +17,7 @@ void PrintArray(int[] col) //col=collection Эта функция выводит
     int position = 0; //position=index
     while (position < count)
     {
-        Console.WriteLine(col[position]);
+        Console.WriteLine($"{col[position]} ");
         position++;
     }
 }
